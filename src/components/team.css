@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  /* Style for the overlay (initially hidden) */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 70%; /* Change height to 100% to cover the entire container */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+    display: none; /* Initially hide the overlay */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style for the overlay content (icons) */
+  .overlay .content {
+    font-size: 2rem;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Show the overlay when hovering over the container */
+  .container:hover .overlay {
+    display: flex; /* Show the overlay on hover */
+  }
+  

@@ -1,0 +1,41 @@
+/* .carouselOne{
+    background-image: url("https://images.pexels.com/photos/323244/pexels-photo-323244.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.carouselTwo{
+    background-image: url("https://images.pexels.com/photos/1406764/pexels-photo-1406764.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.carouselThree{
+    background-image: url("https://images.pexels.com/photos/597200/pexels-photo-597200.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+.carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Set the background to scroll initially */
+    background-position: center center;
+}
+.fixed-background { /* Set the background to fixed on scroll */
+    background-position: center top;
+    height: 100vh; /* Set a fixed height for the item to make it occupy the full viewport height */
+}
+.parent-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100vh;
+  }

@@ -1,0 +1,27 @@
+/* Style for the container div */
+.imageitem1 {
+    position: relative;
+  }
+  .imageitem2{
+    width: 9.4rem;
+    height: 8.5rem;
+}
+  /* Style for the text container (initially hidden) */
+  .intro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.1s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  /* Style for the text when hovered */
+  .imageitem1:hover .intro {
+    opacity: 6; /* Show the text on hover */
+  }
+  

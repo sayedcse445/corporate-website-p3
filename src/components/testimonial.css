@@ -1,0 +1,12 @@
+.carousel-inner{
+    background-image: url('https://images.pexels.com/photos/712319/pexels-photo-712319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center center; 
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 50vh;
+}
+.head{
+    margin-bottom: 208px;
+}
